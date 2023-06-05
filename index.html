@@ -5,8 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
 </head>
-<body>
-    
-</body>
+ <body>
+        <header>
+            <img src="image/download.jpeg" alt="logo usaha" class="logo">
+            <div class="nav-bar">
+                <div class="nav-item">HOME </div>
+                <div class="nav-item"> <a href='profile.html'> OUR PROFILE</a></div>
+                <div class="nav-item">PORTOFOLIO</div>
+                <div class="nav-item">MESSAGE US</div>
+            </div>
+        </header>
+        <div id ="hero" class="hero">
+            <img src="image/hero.jpg" alt="hero image">
+            <h1> hi, edwin welcome to website</h1>
+            <h2>ini adalah website latihan pertama</h2>
+            
+        </div>
+        <div id="headquarters-section">
+            <h1>headquarters</h1>
+            <div class="wrapper">
+            <div class="headquarters-image-container">
+                <div class="headquarters-image"></div>
+                <p>Jakarta</p>
+            </div>
+            <div class="headquarters-image-container">
+                <div class="headquarters-image"></div>
+                <p>Bandung</p>
+            </div>
+            <div class="headquarters-image-container">
+                <div class="headquarters-image"></div>
+                <p>Pontianak</p>
+            </div>
+        </div>
+        </div>
+
+        
+        <div id="message-us-section" class="message-us">
+            <h1>message us</h1>
+            
+              <table>
+                <tr>
+                    <td>nama</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" ></td>
+                </tr>
+                <tr>
+                    <td>tanggal lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="tanggal lahir"></td>
+                </tr>
+                <tr>
+                    <td>jenis kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" name="gender" value="laki-laki">laki -laki
+                        <input type="radio" name="gender" value="perempuan">perempuan
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>pesan</td>
+                    <td>:</td>
+                    <td>
+                        <textarea ="textarea" name="pesan"></textarea> 
+                    </td>
+                    
+                </tr>
+              </table>
+              <button id="kirim">Submit</button>
+            
+        </div>
+        <div class="message-output">
+            <b>current time : <span id="waktu"> </span> </b> 
+            <br>         
+            <b> Nama : <span id="nama"> </span></b>
+            <br>          
+           <b>Tanggal Lahir : <span id="tanggallahir"> </span></b>
+           <br>
+           <b>Jenis Kelamin: <span id="jeniskelamin"> </span></b>
+           <br>
+           <b>Pesan : <span id="pesan"> </span></b>
+            
+
+        </div>
+        <div style="clear: both;"></div>
+        <footer>created by edwin
+            
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
 </html>
