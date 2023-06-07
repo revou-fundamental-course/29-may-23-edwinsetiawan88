@@ -1,0 +1,134 @@
+/* @media only screen and (max-width: 600px) { */
+    /* .header{ */
+        /* flex-direction: column; */
+    /* } */
+/* } */
+
+
+
+
+header {
+    border: 1px solid red;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/*  */
+
+.nav-bar {
+    display: flex;
+    border: solid black;
+   border-radius: 5px;
+   
+}
+
+
+.nav-item{
+    padding: 5px 1em;
+    width: 120px;
+    border-right: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-item:hover{
+    background: lightblue;
+    margin-top: 1px;
+}
+
+.nav-bar :last-child{
+    border-right: none;
+
+
+}
+
+a {
+   text-decoration: none; 
+}
+
+
+.logo {
+    height: 2em;
+
+}
+
+.hero{
+    display:flex;
+    height: 500px;
+    width: auto;
+    padding-left: 16em;
+   
+   /** background-image: ;**/
+
+
+}
+
+.img-slide {
+display: flex;
+height: 500px;
+width: auto;
+padding-left: 16em;
+}
+
+.wrapper {
+    display: flex;
+}
+
+
+
+.headquarters-image-container {
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+     margin: 3em 1em; 
+    padding-left: 2em;
+   
+}
+
+.headquarters-image {
+    margin-left: 11em;
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    border: 2px solid black;
+    align-items: center;
+   
+    
+    
+}
+
+#kirim {
+    padding: 1em;
+    width: 150px;
+    border: 1em;
+    border-color: black;
+    cursor: pointer;
+}
+#kirim:hover{
+    background: lightblue;
+    margin-top: 1px; 
+}
+
+footer {
+    background-color:bisque;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1em;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.message-us{
+  
+    width: 49%;
+    float: left;
+
+}
+.message-output{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    
+}
+

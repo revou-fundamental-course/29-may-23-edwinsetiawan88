@@ -1,0 +1,17 @@
+
+
+<input type="number" id="number" name="number" value="2">
+<input type="submit" id="submit">
+
+<span id="nama"></span>
+
+<script>
+    var btn = document.getElementById('submit');
+    btn.addEventListener('click', func);
+    
+    function func() {
+      a= document.getElementById("number").value;
+      //alert(a);
+      document.getElementById("nama").innerHTML=a;
+    }
+</script>
