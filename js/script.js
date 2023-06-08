@@ -1,5 +1,5 @@
-var input_name = prompt("Masukkan Nama Anda");
-document.getElementById("nama").innertext= input_name;
+var input_name = prompt ("Masukkan Nama Anda");
+document.getElementById("inputnama").innertext= input_name;
 
 var slideindex = 1;
 showDivs(slideindex);
