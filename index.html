@@ -1,12 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html>
+    <head>
+        <title>company profile</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <img src="image/download.jpeg" alt="logo usaha" class="logo">
+            <div class="nav-bar">
+                <div class="nav-item">HOME </div>
+                <div class="nav-item"> <a href='profile.html'> OUR PROFILE</a></div>
+                <div class="nav-item">PORTOFOLIO</div>
+                <div class="nav-item">MESSAGE US</div>
+            </div>
+        </header>
+        <h1> Hi , Edwin Welcome to Our Website</h1>
+            <h2>Ini Adalah Website Latihan pertama</h2>
+            <br>
+           <div>
+            <img class="img-slide" src="image/pexels-ezra-comeau-2387418.jpg"/>
+            <img class="img-slide" src="image/pexels-francesco-ungaro-2325446.jpg"/>
+            <img class="img-slide" src="image/pexels-jaime-reimer-2662116.jpg"/>
+
+            <button onclick="plusDivs(-1)">Previous</button>
+            <button onclick="plusDivs(1)">Next</button>
+           </div> 
+     </div>
+        <div id="headquarters-section">
+            <h1>HEADQUARTERS </h1>
+           
+            <div class="wrapper">
+            <div class="headquarters-image-container">
+                <div class="headquarters-image" ></div>
+                <p>Jakarta</p>
+            </div>
+            
+            <div class="headquarters-image-container">
+                <div class="headquarters-image"></div>
+                <p>Bandung</p>
+            </div>
+           
+            <div class="headquarters-image-container">
+                <div class="headquarters-image"></div>
+                <p>Pontianak</p>
+            </div>
+        </div>
+        </div>
+
+        
+        <div id="message-us-section" class="message-us">
+            <h1>message us</h1>
+            <!-- <form name="message-form"> -->
+              <table>
+                <tr>
+                    <td>nama</td>
+                    <td>:</td>
+                    <td><input  placeholder = "Nama" type="text" name="full-name" id="full-name" ></td>
+                </tr>
+                <tr>
+                    <td>tanggal lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="birth-date" id="birth-date"></td>
+                </tr>
+                <tr>
+                    <td>jenis kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" name="gender" value="laki-laki">
+                        <label for="male">laki-laki</label>
+                        <input type="radio" name="gender" value="perempuan">
+                        <label for="female">perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>pesan</td>
+                    <td>:</td>
+                    <td>
+                        <textarea placeholder="pesan" name="messages" id="messages"></textarea> 
+                    </td>
+                    
+                </tr>
+              </table>
+
+              <input type="submit" value="submit" id="submit"/>
+          
+          
+        </div>
+       
+        <div class="message-output">
+            <b>current time : <span id="waktu"> </span> </b> 
+            <br>         
+            <b> Nama : <span id="sender-full-name"> </span></b>
+            <br>          
+            <b>Tanggal Lahir : <span id="sender-birth-date"> </span></b>
+            <br>
+            <b>Jenis Kelamin: <span id="sender-gender"> </span></b>
+            <br>
+            <b>Pesan : <span id="sender-message"> </span></b>
+        </div>
+
+        <div style="clear: both;"></div>
+        
+        <footer>created by edwin</footer>
+        <script src="js/script.js"></script>
+    </body>
+
     
-</body>
 </html>
