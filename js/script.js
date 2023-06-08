@@ -1,3 +1,6 @@
+var input_name = prompt("Masukkan Nama Anda");
+document.getElementById("nama").innertext= input_name;
+
 var slideindex = 1;
 showDivs(slideindex);
 
@@ -23,12 +26,10 @@ setInterval(() => {
     plusDivs(1);
 
 },2000);
+
+
+
 var currentDate = new Date();
-
-
-
-
-
 
 // Display the current time
 document.getElementById('waktu' ).innerHTML= currentDate;
