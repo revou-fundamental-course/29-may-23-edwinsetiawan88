@@ -1,6 +1,3 @@
-var input_name = prompt ("Masukkan Nama Anda");
-document.getElementById("inputnama").innertext= input_name;
-
 var slideindex = 1;
 showDivs(slideindex);
 
@@ -27,7 +24,8 @@ setInterval(() => {
 
 },2000);
 
-
+var input_name = prompt ("Masukkan Nama Anda");
+document.getElementById("inputnama").innertext= input_name;
 
 var currentDate = new Date();
 
